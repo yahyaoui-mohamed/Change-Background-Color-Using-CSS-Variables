@@ -1,0 +1,71 @@
+:root {
+  --main-Color: #03a9f4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.container {
+  width: 800px;
+  margin: 50px auto;
+  text-align: left;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--main-Color);
+  /* transition: 0.5s; */
+}
+ul {
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li:first-child {
+  width: 25px;
+  height: 25px;
+  background-color: #03a9f4;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li:nth-child(2) {
+  width: 25px;
+  height: 25px;
+  background-color: #e91e63;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li:nth-child(3) {
+  width: 25px;
+  height: 25px;
+  background-color: #673ab7;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li:nth-child(4) {
+  width: 25px;
+  height: 25px;
+  background-color: #ffc107;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul li:last-child {
+  width: 25px;
+  height: 25px;
+  background-color: #4caf50;
+  display: inline-block;
+  cursor: pointer;
+}
